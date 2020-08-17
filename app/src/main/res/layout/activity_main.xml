@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/vor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ellipsize="start"
+        android:fontFamily="@font/ultra"
+        android:gravity="end"
+        android:singleLine="false"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/ergebnis"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_gravity="right"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeStepGranularity="12sp"
+        android:autoSizeTextType="uniform"
+        android:ellipsize="end"
+        android:fontFamily="@font/ultra"
+        android:gravity="right"
+        android:singleLine="false"
+        android:text="0"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/actionButton"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ce"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="CE" />
+
+            <TextView
+                android:id="@+id/bindez"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Bin   Dez"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/hexdez"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Hex   Dez"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/hexbin"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Hex   Bin"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/actionButton"
+            >
+
+            <TextView
+                android:id="@+id/inc"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight" />
+
+            <TextView
+                android:id="@+id/bin"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Dez   Bin"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/hex"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Dez   Hex"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/binhex"
+                style="@style/ActionButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="Bin   Hex"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/dark">
+
+            <TextView
+                android:id="@+id/c"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="C" />
+
+            <TextView
+                android:id="@+id/d"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="D" />
+
+            <TextView
+                android:id="@+id/e"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="E" />
+
+            <TextView
+                android:id="@+id/f"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="F" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/dark">
+
+
+            <TextView
+                android:id="@+id/acht"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/neun"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/a"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="A" />
+
+            <TextView
+                android:id="@+id/b"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="B" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/dark">
+
+
+            <TextView
+                android:id="@+id/vier"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/fünf"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/sechs"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/sieben"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="7" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@color/dark">
+
+            <TextView
+                android:id="@+id/nul"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/eins"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/zwei"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/drei"
+                style="@style/NumberButtonStyle"
+                android:fontFamily="@font/helveticalight"
+                android:text="3" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
